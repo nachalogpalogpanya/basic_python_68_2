@@ -1,0 +1,16 @@
+cd
+ls
+pwd
+
+git clone https://github.com/nachalogpalogpanya/basic_python_68_2.git
+
+git init "ทำให้ folder รู้จัก github"
+git remote add origin "ใช้ดึงไฟล์ไปเซฟใน git hub"
+git config --global user.name "tanachok"
+git config --global user.email "tanachok114@gmail.com"
+
+git add . "เลือกไฟล์ว่าเอาอะไรไปเซฟ"
+git commit -m "massage"
+git push origin main
+
+git pull origin main
